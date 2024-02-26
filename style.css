@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.herosection {
+  width: 100%;
+  height: 100vh;
+  background: url(./image/top-view-ice-cream-cones-with-copy-space.jpg)
+    no-repeat center / cover;
+  background-attachment: fixed;
+}
+.AboutUs {
+  width: 100%;
+  height: 100vh;
+  background: url(./image/decoration-waffle-cone-with-aalaw-sprinkles-blue-backdrop.jpg)
+    no-repeat center / cover;
+  background-attachment: fixed;
+}
+.Products {
+  width: 100%;
+  height: 100vh;
+  background: #d3d2f4 no-repeat center / cover;
+  background-attachment: fixed;
+}
+.Media {
+  width: 100%;
+  height: 100vh;
+  background: url(./image/empty-tasty-ice-cream-cones-multicolored-surface_23-2148150223.jpg)
+    no-repeat center / cover;
+  background-attachment: fixed;
+}
+.ContactUs {
+  width: 100%;
+  height: 100vh;
+  background: #d4e2ee no-repeat center / cover;
+  background-attachment: fixed;
+}
+.ManufaturingUnits,
+.FranchisingOpportunities,
+.AwardsCertifications {
+  width: 100%;
+  height: auto;
+  background: #eef5ff no-repeat center / cover;
+  background-attachment: fixed;
+}
+.SugarFree {
+  width: 100%;
+  height: 100vh;
+  background: #5c5c69 no-repeat center / cover;
+  background-attachment: fixed;
+}
+.FrozenYoghurt {
+  width: 100%;
+  height: auto;
+  background: #a4a4a7 no-repeat center / cover;
+  background-attachment: fixed;
+}
+.LactoseFree {
+  width: 100%;
+  height: 100vh;
+  background: #005ca7 no-repeat center / cover;
+  background-attachment: fixed;
+}
+.Tricone {
+  width: 100%;
+  height: auto;
+  background: #8AACFF no-repeat center / cover;
+  background-attachment: fixed;
+}
+.tubs {
+  width: 100%;
+  height: auto;
+  background: #6151BB no-repeat center / cover;
+  background-attachment: fixed;
+}
+.Medias {
+  width: 100%;
+  height: auto;
+  background: #AFD3E2 no-repeat center / cover;
+  background-attachment: fixed;
+}
+a {
+  text-decoration: none !important;
+}
+.btnAboutsUs button {
+  border: 0.5px solid #232b4d !important;
+}
+.btnAboutsUs button a {
+  color: #232b4d !important;
+  font-weight: 600;
+}
+.btnProducts button {
+  border: 0.5px solid #6f42c1 !important;
+}
+.btnProducts button a {
+  color: #6f42c1 !important;
+  font-weight: 600;
+}
+.btnMedia button {
+  border: 0.5px solid !important;
+}
+.btnMedia button a {
+  color: black !important;
+  font-weight: 600;
+}
+.btnContactus button {
+  border: 0.5px solid #232b4d !important;
+}
+.btnContactus button a {
+  color: #232b4d !important;
+  font-weight: 600;
+}
+
+.sub2ivproducts2 {
+  width: 100%;
+  height: 450px;
+  margin-top: 150px;
+  background-size: 100% 100%;
+  box-shadow: 10px 10px 10px rgb(84, 84, 84);
+  animation: slider 8s linear infinite;
+}
+
+@keyframes slider {
+  0% {
+    background-image: url(./image/IceCreamWomen.jpg);
+  }
+  25% {
+    background-image: url(./image/IceCreamWomen1.jpg);
+  }
+  50% {
+    background-image: url(./image/IceCreamWomen2.jpg);
+  }
+  75% {
+    background-image: url(./image/IceCreamWomenCC.jpg);
+  }
+  100% {
+    background-image: url(./image/IceCreamWomen.jpg);
+  }
+}
